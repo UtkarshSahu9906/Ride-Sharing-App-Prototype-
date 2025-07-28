@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RideSharingAppPrototype">
         <activity
+            android:name=".utils.FirebaseManager"
+            android:exported="false" />
+        <activity
             android:name=".driver.DriverDashboardActivity"
             android:exported="false" />
         <activity
